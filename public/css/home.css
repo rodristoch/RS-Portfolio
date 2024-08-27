@@ -98,9 +98,9 @@ main {
     margin-top: -1px;
 }
 
-.section-top-desktop-arriba {
-    min-height: 130px;
-}
+/* .section-top-desktop-arriba {
+    min-height: 10px;
+} */
 
 .section-top-desktop, .section-top-desktop-contacto {
     display: none;
@@ -2195,7 +2195,7 @@ footer {
 @media (min-width: 1590px) {
 
     .section-de-entrada {
-        min-height: 880px;
+        min-height: 855px;
         background-position-y: center;
     }
 
