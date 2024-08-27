@@ -228,7 +228,7 @@ main {
 /* PANEL CONTENEDOR DE LOS LINKS */
 .div-links {
     position: absolute;
-    top: 70px;
+    top: 69px;
     right: 0;
     border: 1px solid blue;
     border: 1px solid transparent;
@@ -247,7 +247,7 @@ main {
 
 .div-links-show {
     position: absolute;
-    top: 70px;
+    top: 69px;
     right: 0;
     border: 1px solid blue;
     border: 1px solid white;
