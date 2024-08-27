@@ -122,7 +122,12 @@ main {
     letter-spacing: .5px;
     /* letter-spacing: -2.25px; */
     line-height: 20px;
+    height: 37px;
+    width: 39px;
     padding: 5px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2.5px solid white;
     /* transition: all 0.5s ease; */
     /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='4' stroke-dasharray='50' stroke-dashoffset='25' stroke-linecap='square'/%3e%3c/svg%3e"); */
@@ -179,7 +184,12 @@ main {
     font-weight: 400;
     letter-spacing: .5px;
     line-height: 20px;
+    height: 37px;
+    width: 39px;
     padding: 5px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2.5px solid black;
 }
 
@@ -202,7 +212,7 @@ main {
 /* PANEL CONTENEDOR DE LOS LINKS */
 .div-links {
     position: absolute;
-    top: 65px;
+    top: 70px;
     right: 0;
     border: 1px solid blue;
     border: 1px solid transparent;
@@ -221,7 +231,7 @@ main {
 
 .div-links-show {
     position: absolute;
-    top: 65px;
+    top: 70px;
     right: 0;
     border: 1px solid blue;
     border: 1px solid transparent;
@@ -1651,6 +1661,9 @@ footer {
         padding: 5px 4px;
         border: 2.5px solid white;
         margin-bottom: 15px;
+        height: 37px;
+        display: flex;
+        align-items: center;
     }
 
     /* .div-top .a-h2-nombre-desktop1200 .h2-nombre-desktop-izq, .div-top .a-h2-nombre-desktop1200 .h2-nombre-desktop-der {

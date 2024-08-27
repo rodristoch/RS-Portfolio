@@ -133,7 +133,12 @@ main {
     letter-spacing: .5px;
     /* letter-spacing: -2.25px; */
     line-height: 20px;
+    height: 37px;
+    width: 39px;
     padding: 5px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2.5px solid white;
     border: 2.5px solid black;
     /* transition: all 0.5s ease; */
@@ -195,7 +200,12 @@ main {
     font-weight: 400;
     letter-spacing: .5px;
     line-height: 20px;
+    height: 37px;
+    width: 39px;
     padding: 5px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2.5px solid black;
 }
 
@@ -218,7 +228,7 @@ main {
 /* PANEL CONTENEDOR DE LOS LINKS */
 .div-links {
     position: absolute;
-    top: 65px;
+    top: 70px;
     right: 0;
     border: 1px solid blue;
     border: 1px solid transparent;
@@ -237,7 +247,7 @@ main {
 
 .div-links-show {
     position: absolute;
-    top: 65px;
+    top: 70px;
     right: 0;
     border: 1px solid blue;
     border: 1px solid white;
@@ -1357,6 +1367,9 @@ footer {
         padding: 5px 4px;
         border: 2.5px solid white;
         margin-bottom: 15px;
+        height: 37px;
+        display: flex;
+        align-items: center;
     }
 
     .div-top .a-h2-nombre-desktop1200 .h2-nombre-desktop-izq, .div-top .a-h2-nombre-desktop1200 .h2-nombre-desktop-der {
