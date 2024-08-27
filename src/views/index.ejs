@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include("./partials/head.ejs", {cssSheet: "home", title: "Rodrigo Stochetta - Welcome"}) %>
+    
+    
+    <body>
+
+          <!-- navbar podria tener: home, about me, proyects -->
+
+        <main>  <!-- home podria tener: 
+            - entrada con foto de back + nombre y titulo, 
+            - educacion,
+            - skills,
+            - footer donde figure mi nombre mas chiquito y un breve agradecimiento por visitar la pagina +
+            - botones de contacto y boton de subir arriba -->
+
+            <!-- TOP -->
+            <%- include("./partials/top.ejs") %>
+
+            <section class="section-top-desktop-arriba">
+
+            </section>
+
+            <!-- SECTION ENTRADA -->
+            <section class="section-de-entrada"> <!-- tiene la imagen de fondo -->
+                <!-- MOBILE -->
+                <article class="contenedor-nombre-y-titulo">  <!-- el red, tiene mi nombre y titulo -->
+                    <h1 class="nombre-sobre-img">Rodrigo Stochetta</h1>
+                    <h2 class="titulo-sobre-img">Full Stack Web Developer</h2>
+                </article>
+
+                <!-- DESKTOP -->
+                <article class="contenedor-flex-nombre-y-titulo-desktop">  <!-- el yellow -->
+                    <h1 class="nombre-sobre-img">Rodrigo</h1>
+                    <h1 class="apellido-sobre-img">Stochetta</h1>
+                    <h2 class="titulo-sobre-img">Full Stack Web</h2>
+                    <h2 class="titulo-sobre-img-abajo">Developer</h2>
+                </article>
+
+            </section>
+
+            <section class="section-top-desktop-contacto">
+
+                <!-- CONTACT DESKTOP -->
+                <section class="section-de-contacto-desktop">
+                    <div class="div-interno-contacto-desktop">
+
+                        <article class="article-icon-contacto-desktop">
+                            <div class="div-con-img-contacto">
+                                <img src="/img/icons/contact/github-mark-white.png" alt="github" class="img-contacto">
+                            </div>
+                            <p class="p-dato-contacto-desktop"><a href="https://github.com/rodristoch" target="_blank" class="p-dato-contacto-desktop" style="margin-left: 0;">github.com/rodristoch</a></p>
+                        </article>
+
+                        <article class="article-icon-contacto-desktop">
+                            <div class="div-con-img-contacto">
+                                <img src="/img/icons/contact/linkedin.512x512.png" alt="linkedin" class="img-contacto">
+                            </div>
+                            <p class="p-dato-contacto-desktop"><a href="https://www.linkedin.com/in/rodrigo-stochetta/" target="_blank" class="p-dato-contacto-desktop" style="margin-left: 0;">linkedin.com/in/rodrigo-stochetta</a></p>
+                        </article>
+
+                        <article class="article-icon-contacto-desktop">
+                            <div class="div-con-img-contacto">
+                                <img src="/img/icons/contact/icons8-whatsapp-messenger-96.png" alt="whatsapp" class="img-contacto">
+                            </div>
+                            <p class="p-dato-contacto-desktop">+5491136517343</p>
+                        </article>
+
+                        <article class="article-icon-contacto-desktop">
+                            <div class="div-con-img-contacto">
+                                <img src="/img/icons/contact/icons8-email-100.png" alt="email" class="img-contacto">
+                            </div>
+                            <p class="p-dato-contacto-desktop">rodrigostochetta@gmail.com</p>
+                        </article>
+
+                    </div>
+                </section>
+
+            </section>
+
+            <!-- CONTACT MOBILE -->
+            <section class="section-de-contacto">
+                <div class="div-interno-contacto">
+
+                    <article class="article-icon-contacto">
+                        <a href="https://github.com/rodristoch" target="_blank">
+                            <div class="div-con-img-contacto">
+                                <img src="/img/icons/contact/github-mark-white.png" alt="github" class="img-contacto">
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="article-icon-contacto">
+                        <a href="https://www.linkedin.com/in/rodrigo-stochetta/" target="_blank">
+                            <div class="div-con-img-contacto">
+                                <img src="/img/icons/contact/linkedin.512x512.png" alt="linkedin" class="img-contacto">
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="article-icon-contacto">
+                        <a href="https://wa.me/5491136517343/?text=Hola%20Rodrigo" target="_blank">
+                            <div class="div-con-img-contacto">
+                                <img src="/img/icons/contact/icons8-whatsapp-messenger-96.png" alt="whatsapp" class="img-contacto">
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="article-icon-contacto">
+                        <a href="mailto:rodrigostochetta@gmail.com?subject=Full Stack Web Developer" target="_blank">
+                            <div class="div-con-img-contacto">
+                                <img src="/img/icons/contact/icons8-email-100.png" alt="mail" class="img-contacto">
+                            </div>
+                        </a>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- EDUCATION -->
+            <section class="section-education">
+                <div class="div-titulo-arriba-education">
+                    <h3 class="title-arriba-dorado">Education<h3 class="title-arriba">& degrees</h3></h3>
+                </div>
+
+                <div class="div-flex-contendor-articles-education">
+                    <article class="article-education-1">  <!-- el verde -->
+                        <div class="div-interno-education-1" id="div-interno-education-1">  <!-- el rojo -->
+    
+                            <div class="div-con-img-education">
+                                <img src="img/dh1.webp" class="img-digital" alt="img-digital">
+                            </div> 
+    
+                            <div class="div-con-titulo-obtenido-education">  <!-- tiene el background translucido -->
+                                <p class="titulo-obtenido-fullstack">Full Stack Developer</p>
+                                <div class="div-ver-certificado">
+                                    <a href="img/certificados/Rodrigo Stochetta diploma.pdf" target="_blank">
+                                        <div class="ver-certificado-externo" style="cursor: pointer;">
+                                            <p class="ver-certificado" style="color: black;">See certificate_</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </article>
+    
+                    <article class="article-education">
+                        <div class="div-interno-education" id="div-interno-education-2">
+    
+                            <div class="div-con-img-education">
+                                <img src="img/dh1.webp" class="img-digital" alt="img-digital">
+                            </div> 
+    
+                            <div class="div-con-titulo-obtenido-education">  <!-- tiene el background translucido -->
+                                <p class="titulo-obtenido">Java</p>
+                                <div class="div-ver-certificado">
+                                    <div class="ver-certificado-externo">
+                                        <p class="ver-certificado-java">In progress_</p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </article>
+    
+                    <article class="article-education-3">
+                        <div class="div-interno-education" id="div-interno-education-3">
+    
+                            <div class="div-con-img-education">
+                                <img src="img/imageup.png" class="img-digital" alt="img-digital">
+                            </div> 
+    
+                            <div class="div-con-titulo-obtenido-education">  <!-- tiene el background translucido -->
+                                <p class="titulo-obtenido">Architect</p>
+                                <p class="titulo-obtenido-es">Arquitecto</p>
+                                <div class="div-ver-certificado">
+                                    <div class="ver-certificado-externo">
+                                        <p class="ver-certificado-arq">Completed_</p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- SKILLS -->
+            <section class="section-skills">
+                <div class="div-titulo-arriba-skills">
+                    <h3 class="title-arriba-dorado-skills">Hard skills <h3 class="title-arriba">&</h3></h3>
+                </div>
+                <h3 class="title-abajo">technologies I use</h3>
+
+                <div class="div-interno-skills"> <!-- el verde -->
+
+                    <!-- 1ra FILA MOBILE (4 CARDS) -->
+                    <div class="div-interno-skills-1rafila"> <!-- el rojo -->
+
+                        <div class="div-skill" id="div-skill-node">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/node-js.png" class="img-skill" alt="node">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Node.js</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill" id="div-skill-js">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/js.png" class="img-skill" alt="js">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Js</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill" id="div-skill-html">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/html.png" class="img-skill" alt="html">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Html</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill" id="div-skill-css">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/css.png" class="img-skill" alt="css">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Css</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 1ra FILA DESKTOP (8 CARDS) -->
+                    <div class="div-interno-skills-1rafila-desktop"> <!-- el rojo -->
+
+                        <div class="div-skill-desktop">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/node-js.png" class="img-skill-desktop" alt="node">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Node.js</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill-desktop">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/js.png" class="img-skill-desktop" alt="js">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Js</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill-desktop">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/html.png" class="img-skill-desktop" alt="html">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Html</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill-desktop">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/css.png" class="img-skill-desktop" alt="css">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Css</p>
+                            </div>
+                        </div>
+
+                        <div class="div-skill-desktop">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/react-orig.png" class="img-skill-react-desktop" alt="react">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">React</p>
+                            </div>
+                        </div>
+
+                        <div class="div-skill-desktop">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/ex.png" class="img-skill-desktop" alt="express">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Express</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill-desktop">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/ejs.png" class="img-skill-ejs-desktop" alt="ejs">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Ejs</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill-desktop">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/sequelize2.png" class="img-skill-sequelize-desktop" alt="sequelize">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Sequelize</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 2da FILA MOBILE (4 CARDS) -->
+                    <div class="div-interno-skills-2dafila"> <!-- el rojo -->
+
+                        <div class="div-skill" id="div-skill-react">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/react-orig.png" class="img-skill-react" alt="react">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">React</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill" id="div-skill-express">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/ex.png" class="img-skill" alt="express">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Express</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill" id="div-skill-ejs">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/ejs.png" class="img-skill-ejs" alt="ejs">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Ejs</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill" id="div-skill-sequelize">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/sequelize2.png" class="img-skill-sequelize" alt="sequelize">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Sequelize</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 2da FILA DESKTOP (8 CARDS) -->
+                    <div class="div-interno-skills-2dafila-desktop"> <!-- el rojo -->
+
+                        <div class="div-skill-desktop">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/postman.png" class="img-skill-desktop" alt="postman">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Postman</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill-desktop">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/git.png" class="img-skill-desktop" alt="git">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Git</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill-desktop">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/mysql.png" class="img-skill-mysql-desktop" alt="mysql">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">MySql</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill-desktop">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/postgresql.png" class="img-skill-postgre-desktop" alt="postgreSql">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">PostgreSql</p>
+                            </div>
+                        </div>
+
+                        <div class="div-skill-desktop">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/figma.png" class="img-skill-desktop" alt="figma">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Figma</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill-desktop">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/dynobird-com_179544.webp" class="img-skill-desktop" alt="dynobird">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Dynobird</p>
+                            </div>
+                        </div>
+
+                        <div class="div-skill-desktop">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/d0ci4nVArgYR7cChcpBQp0wgHM.avif" class="img-skill-desktop" alt="trello">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Trello</p>
+                            </div>
+                        </div>
+
+                        <div class="div-skill-desktop">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/scrum-svgrepo-com_wh.png" class="img-skill-scum-desktop" alt="scrum">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Scrum</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 3ra FILA MOBILE (4 CARDS) -->
+                    <div class="div-interno-skills-3rafila"> <!-- el rojo -->
+
+                        <div class="div-skill" id="div-skill-postman">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/postman.png" class="img-skill" alt="postman">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Postman</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill" id="div-skill-git">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/git.png" class="img-skill" alt="git">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Git</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill" id="div-skill-mysql">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/mysql.png" class="img-skill-mysql" alt="mysql">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">MySql</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill" id="div-skill-postgresql">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/postgresql.png" class="img-skill-postgre" alt="postgreSql">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">PostgreSql</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 4ta FILA MOBILE (4 CARDS) -->
+                    <div class="div-interno-skills-4tafila"> <!-- el rojo -->
+
+                        <div class="div-skill" id="div-skill-figma">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/figma.png" class="img-skill" alt="figma">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Figma</p>
+                            </div>
+                        </div>
+    
+                        <div class="div-skill" id="div-skill-dynobird">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/dynobird-com_179544.webp" class="img-skill" alt="dynobird">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Dynobird</p>
+                            </div>
+                        </div>
+
+                        <div class="div-skill" id="div-skill-trello">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/d0ci4nVArgYR7cChcpBQp0wgHM.avif" class="img-skill" alt="trello">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Trello</p>
+                            </div>
+                        </div>
+
+                        <div class="div-skill" id="div-skill-scrum">  <!-- tiene el backgorund translucido -->
+                            <div class="div-logo-skill">
+                                <img src="/img/icons/scrum-svgrepo-com_wh.png" class="img-skill-scum" alt="scrum">
+                            </div>
+                            <div class="div-nombre-skill">
+                                <p class="nombre-skill">Scrum</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- WHAT I DO -->
+            <section class="section-services">
+                <div class="div-titulo-arriba-services">
+                    <h3 class="title-arriba">What<h3 class="title-arriba-dorado-services">I do</h3></h3>
+                </div>
+
+                <div class="div-flex-contendor-articles-services">
+                    <article class="article-service" id="article-service-izq">  <!-- el verde -->
+                        <div class="div-interno-service" id="div-interno-service-1">  <!-- el rojo, tiene el background translucido -->
+    
+                            <div class="div-logo-service">
+                                <img src="/img/icons/icons8-web-design-100.png" class="logo-service-1" alt="design">
+                            </div> 
+    
+                            <div class="div-descripcion-service">  <!-- el yellow -->
+                                <div class="div-titulo-servicio">
+                                    <p class="titulo-servicio-diseño">Design_</p>
+                                </div>
+                                <p class="descripcion-service-diseño">Creation of the website with fonts, color palettes and a eye-friendly modern design.</p>
+                            </div>
+    
+                        </div>
+                    </article>
+
+                    <article class="article-service" id="article-service-der">  <!-- el verde -->
+                        <div class="div-interno-service" id="div-interno-service-2">  <!-- el rojo, tiene el background translucido -->
+    
+                            <div class="div-logo-service">
+                                <img src="/img/icons/icons8-user-100.png" class="logo-service-2" alt="user">
+                            </div> 
+    
+                            <div class="div-descripcion-service">  <!-- el yellow -->
+                                <div class="div-titulo-servicio">
+                                    <p class="titulo-servicio-user">User Experience_</p>
+                                </div>
+                                <p class="descripcion-service-user">Intuitive, eye-friendly, modern and simple design for easy consumption.</p>
+                            </div>
+    
+                        </div>
+                    </article>
+                </div>
+
+                <div class="div-flex-contendor-articles-services">
+                    <article class="article-service" id="article-service-izq">  <!-- el verde -->
+                        <div class="div-interno-service" id="div-interno-service-3">  <!-- el rojo, tiene el background translucido -->
+    
+                            <div class="div-logo-service">
+                                <img src="/img/icons/icons8-code-64.png" class="logo-service-3" alt="code">
+                            </div> 
+    
+                            <div class="div-descripcion-service">  <!-- el yellow -->
+                                <div class="div-titulo-servicio">
+                                    <p class="titulo-servicio-code">Clean code_</p>
+                                </div>
+                                <p class="descripcion-service-code">Code simplification, clean and understandable to facilitate site maintenance.</p>
+                            </div>
+    
+                        </div>
+                    </article>
+
+                    <article class="article-service" id="article-service-der">  <!-- el verde -->
+                        <div class="div-interno-service" id="div-interno-service-4">  <!-- el rojo, tiene el background translucido -->
+    
+                            <div class="div-logo-service">
+                                <img src="/img/icons/icons8-html-100.png" class="logo-service-4" alt="front">
+                            </div> 
+    
+                            <div class="div-descripcion-service">  <!-- el yellow -->
+                                <div class="div-titulo-servicio">
+                                    <p class="titulo-servicio-front">Front end_</p>
+                                </div>
+                                <p class="descripcion-service-front">Pages dynamism, validations in forms and scripts for a better user experience.</p>
+                            </div>
+    
+                        </div>
+                    </article>
+                </div>
+
+                <div class="div-flex-contendor-articles-services">
+                    <article class="article-service" id="article-service-izq">  <!-- el verde -->
+                        <div class="div-interno-service" id="div-interno-service-5">  <!-- el rojo, tiene el background translucido -->
+    
+                            <div class="div-logo-service">
+                                <img src="/img/icons/icons8-stack-64.png" class="logo-service-5" alt="back">
+                            </div> 
+    
+                            <div class="div-descripcion-service">  <!-- el yellow -->
+                                <div class="div-titulo-servicio">
+                                    <p class="titulo-servicio-back">Back end_</p>
+                                </div>
+                                <p class="descripcion-service-back">Creation and maintenance of APIs, routing and server-side validations.</p>
+                            </div>
+    
+                        </div>
+                    </article>
+
+                    <article class="article-service" id="article-service-der">  <!-- el verde -->
+                        <div class="div-interno-service" id="div-interno-service-6">  <!-- el rojo, tiene el background translucido -->
+    
+                            <div class="div-logo-service">
+                                <img src="/img/icons/icons8-database-100.png" class="logo-service-6" alt="db">
+                            </div> 
+    
+                            <div class="div-descripcion-service">  <!-- el yellow -->
+                                <div class="div-titulo-servicio">
+                                    <p class="titulo-servicio-db">Database_</p>
+                                </div>
+                                <p class="descripcion-service-db">Creation, maintenance and editing of SQL databases using MySQL/PostreSql.</p>
+                            </div>
+    
+                        </div>
+                    </article>
+                </div>
+                
+            </section>
+
+            <!-- FOOTER -->
+            <%- include("./partials/footer.ejs") %>
+                
+        </main>
+        
+        <script src="/js/scroll-up.js"></script>
+        <script src="/js/panel.js"></script>
+        <script src="/js/tap.js"></script>
+        <!-- <script src="/js/cambioIdioma.js"></script> -->
+        
+    </body>
+</html>
