@@ -9,6 +9,8 @@ window.addEventListener("load", () => {
     let body = document.querySelector("body")
     let header = document.querySelector(".top")
     let footer = document.querySelector("footer")
+    let boton1 = document.querySelector("#btn-see-certificate")
+    
     
     /* ------- capturo los divs -------- */
     /* el contenedor en MOBILE */
@@ -18,10 +20,6 @@ window.addEventListener("load", () => {
     let h2nombre = document.querySelector(".h2-nombre")
 
     
-
-
-
-
     /* MOBILE para que aparezca el contenedor azul ppal oculto, al apretar en el Menu Hamb */
     botonMenuHamb.addEventListener("click", () => {
 
@@ -35,16 +33,21 @@ window.addEventListener("load", () => {
         
     })
 
-    // When the user scrolls down 20px from the top of the document, show the button
-    /* window.onscroll = function() {scrollFunction()};
 
-    function scrollFunction() {
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            sectiontop.classList.toggle("section-top-scroll-down");
+
+    boton1.addEventListener("mousedown", () => {
+
+        boton1.style.animation = "btndown 0.5s 1"
         
-        }
-    } */
+    })
 
+    boton1.addEventListener("mouseup", () => {
 
+        boton1.style.animation = "btnup 0.5s 1"
+        
+    })
     
+
+
 })
+

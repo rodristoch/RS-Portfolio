@@ -502,7 +502,7 @@ window.addEventListener("load", () => {
     /* TAPS ON EDUCATION */
     divInternoEducation1.addEventListener("click", () => {
 
-        divInternoEducation1.classList.toggle("div-interno-education-toggled")
+        divInternoEducation1.classList.toggle("div-interno-education1-toggled")
         divInternoEducation2.classList.remove("div-interno-education-toggled")
         divInternoEducation3.classList.remove("div-interno-education-toggled")
         divSkillNode.classList.remove("div-skill-toggled")
@@ -533,7 +533,7 @@ window.addEventListener("load", () => {
     divInternoEducation2.addEventListener("click", () => {
 
         divInternoEducation2.classList.toggle("div-interno-education-toggled")
-        divInternoEducation1.classList.remove("div-interno-education-toggled")
+        divInternoEducation1.classList.remove("div-interno-education1-toggled")
         divInternoEducation3.classList.remove("div-interno-education-toggled")
         divSkillNode.classList.remove("div-skill-toggled")
         divSkillJs.classList.remove("div-skill-toggled")
@@ -563,7 +563,7 @@ window.addEventListener("load", () => {
     divInternoEducation3.addEventListener("click", () => {
 
         divInternoEducation3.classList.toggle("div-interno-education-toggled")
-        divInternoEducation1.classList.remove("div-interno-education-toggled")
+        divInternoEducation1.classList.remove("div-interno-education1-toggled")
         divInternoEducation2.classList.remove("div-interno-education-toggled")
         divSkillNode.classList.remove("div-skill-toggled")
         divSkillJs.classList.remove("div-skill-toggled")

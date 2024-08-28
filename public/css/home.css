@@ -258,7 +258,7 @@ main {
 /* PANEL CONTENEDOR DE LOS LINKS */
 .div-links {
     position: absolute;
-    top: 69px;
+    top: 68px;
     right: 0;
     border: 1px solid blue;
     border: 1px solid transparent;
@@ -277,7 +277,7 @@ main {
 
 .div-links-show {
     position: absolute;
-    top: 69px;
+    top: 68px;
     right: 0;
     border: 1px solid blue;
     border: 1px solid transparent;
@@ -584,8 +584,9 @@ main {
     /* border-top-left-radius: 8px;
     border-top-right-radius: 8px; */
     border-radius: 5px;
-    border: 1px solid black;
+    border: 0.5px solid black;
     background: linear-gradient(140deg, #ffffff 30%, #c36868 75%, #d71a1a 100%);
+    transition: 500ms ease;
 }
 
 .div-con-titulo-obtenido-education {
@@ -644,7 +645,7 @@ main {
     font-family: "DM Mono", monospace;
     color: black;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: -.5px;
     width: fit-content;
     text-align: center;
@@ -891,13 +892,16 @@ main {
 
 .titulo-servicio, .titulo-servicio-diseño, .titulo-servicio-user, .titulo-servicio-code, .titulo-servicio-front, .titulo-servicio-back, .titulo-servicio-db {
     padding: 3px 6px 3px;
-    font-weight: 500;
+    font-weight: 400;
     backdrop-filter: blur(0) saturate(180%);
     -webkit-backdrop-filter: blur(0) saturate(180%);
     background-color: rgba(211, 188, 146, 0.65);
+    /* background: linear-gradient(90deg, rgba(211, 198, 173, 0.55) 0%, rgba(142, 124, 92, 0.55) 100%); */
     width: fit-content;
     text-overflow: ellipsis;
     white-space: nowrap;
+    /* box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5); */
+    transition: 400ms;
 }
 
 .titulo-servicio {
@@ -1038,11 +1042,21 @@ footer {
 
 /* CLASSES FOR TOGGLES IN TAP.JS */
 .div-interno-education-toggled {
-    transform: scale(1.035);
+    /* transform: scale(1.035); */
     background-color: rgba(0, 0, 0, 0.4);
     .img-digital {
         transition: 300ms;
-        background: linear-gradient(140deg, #ffffff 30%, #c36868 85%, #df4040 100%);
+        background: linear-gradient(140deg, #cd9696 10%, #ffffff 60%, #c36868 95%, #df4040 100%);
+        opacity: 0.95;
+    }
+}
+
+.div-interno-education1-toggled {
+    /* transform: scale(1.035); */
+    background-color: rgba(41, 41, 41, 0.1);
+    .img-digital {
+        transition: 300ms;
+        background: linear-gradient(140deg, #cd9696 10%, #ffffff 60%, #c36868 95%, #df4040 100%);
         opacity: 0.95;
     }
 }
@@ -1062,6 +1076,34 @@ footer {
     }
 }
 
+/* BUTTON ANIMATION */
+@keyframes btndown {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+@keyframes btnup {
+    0% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
 
 @media (max-width: 374px) {  /* mobile s */
 
@@ -1822,12 +1864,11 @@ footer {
     }
 
     .div-interno-education:hover, .div-interno-education-1:hover {
-        transform: scale(1.03);
-        background-color: rgba(0, 0, 0, 0.3);
+        /* transform: scale(1.03); */
+        background-color: rgba(41, 41, 41, 0.1);
         .img-digital {
             transition: 300ms;
-            /* background: linear-gradient(140deg, #ffffff 30%, #c36868 75%, #d71a1a 100%); */
-            background: linear-gradient(140deg, #ffffff 30%, #c36868 85%, #df4040 100%);
+            background: linear-gradient(140deg, #cd9696 10%, #ffffff 60%, #c36868 95%, #df4040 100%);
             opacity: 0.95;
         }
     }
@@ -1925,7 +1966,7 @@ footer {
         /* background-color: rgba(0, 0, 0, 0.35); */
         /* box-shadow: 5px 5px 12px 0px rgba(209, 188, 148, 0.6); */
         box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 1);
-        transition: 300ms;
+        transition: 400ms;
     }
 
     .div-interno-service:hover {
@@ -1949,7 +1990,7 @@ footer {
 
     .titulo-servicio, .titulo-servicio-diseño, .titulo-servicio-diseño-es, .titulo-servicio-user, .titulo-servicio-user-es, .titulo-servicio-code, .titulo-servicio-code-es, .titulo-servicio-front, .titulo-servicio-front-es, .titulo-servicio-back, .titulo-servicio-back-es, .titulo-servicio-db, .titulo-servicio-db-es {
         font-size: 15px;
-        font-weight: 500;
+        font-weight: 400;
     }
     
     .descripcion-service, .descripcion-service-es, .descripcion-service-diseño, .descripcion-service-diseño-es, .descripcion-service-user, .descripcion-service-user-es, .descripcion-service-code, .descripcion-service-code-es, .descripcion-service-front, .descripcion-service-front-es, .descripcion-service-back, .descripcion-service-back-es, .descripcion-service-db, .descripcion-service-db-es {

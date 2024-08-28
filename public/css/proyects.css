@@ -228,7 +228,7 @@ main {
 /* PANEL CONTENEDOR DE LOS LINKS */
 .div-links {
     position: absolute;
-    top: 69px;
+    top: 68px;
     right: 0;
     border: 1px solid blue;
     border: 1px solid transparent;
@@ -247,7 +247,7 @@ main {
 
 .div-links-show {
     position: absolute;
-    top: 69px;
+    top: 68px;
     right: 0;
     border: 1px solid blue;
     border: 1px solid white;
@@ -716,7 +716,7 @@ main {
     font-family: "DM Mono", monospace;
     color: black;
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: -.5px;
     width: fit-content;
     text-align: center;
@@ -746,9 +746,10 @@ main {
 .about-proyect, .about-proyect-description, .about-proyect-skills {
     color: rgb(255, 255, 255);
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 300;
     padding: 2px 6px 2px;
     background-color: rgba(145, 114, 169, 0.65);
+    /* background: linear-gradient(90deg, rgba(182, 153, 203, 0.55) 0%, rgba(141, 112, 165, 0.55) 100%); */
     /* border-radius: 5px; */
 }
 
@@ -871,6 +872,36 @@ footer {
 /* DEGRADES */
 .section-proyects {
     background: linear-gradient(rgb(197, 169, 118) 0%, rgb(49, 45, 36) 25%, #272727 45%, #181818 65%, #000000 100%);
+}
+
+
+/* BUTTON ANIMATION */
+@keyframes btndown {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+@keyframes btnup {
+    0% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 
