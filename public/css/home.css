@@ -98,9 +98,9 @@ main {
     margin-top: -1px;
 }
 
-/* .section-top-desktop-arriba {
-    min-height: 10px;
-} */
+.section-top-desktop-arriba {
+    height: 30px;
+}
 
 .section-top-desktop, .section-top-desktop-contacto {
     display: none;
@@ -1468,8 +1468,8 @@ footer {
     }
 
     .section-top-desktop-arriba {
-        /* display: none; */
-        min-height: 50px;
+        display: none;
+        /* min-height: 50px; */
     }
 
     .section-top-desktop, .section-top-desktop-contacto {
