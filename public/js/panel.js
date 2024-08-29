@@ -10,6 +10,7 @@ window.addEventListener("load", () => {
     let header = document.querySelector(".top")
     let footer = document.querySelector("footer")
     let boton1 = document.querySelector("#btn-see-certificate")
+    let boton1desktop = document.querySelector("#btn-see-certificate-desktop")
     
     
     /* ------- capturo los divs -------- */
@@ -44,6 +45,19 @@ window.addEventListener("load", () => {
     boton1.addEventListener("mouseup", () => {
 
         boton1.style.animation = "btnup 0.5s 1"
+        
+    })
+
+
+    boton1desktop.addEventListener("mousedown", () => {
+
+        boton1desktop.style.animation = "btndown 0.5s 1"
+        
+    })
+
+    boton1desktop.addEventListener("mouseup", () => {
+
+        boton1desktop.style.animation = "btnup 0.5s 1"
         
     })
     

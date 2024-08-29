@@ -68,7 +68,7 @@ a {
 }
 /* ---------------------------------------------------------------------------------- */
 /* COSAS DESKTOP Q NO SE VEN ACA */
-.div-navbar, .a-h2-nombre-desktop1200, .section-top-desktop, .section-top-desktop-contacto, .contenedor-flex-nombre-y-titulo-desktop, .p-dato-contacto-desktop-footer, .copyright-desktop, .a-h2-nombre-desktop-footer, .div-flex-links-footer, .div-flex-links-footer-es, .titulo-desktop-footer, .titulo-desktop-footer-es {
+.div-navbar, .a-h2-nombre-desktop1200, .section-top-desktop, .section-top-desktop-contacto, .contenedor-flex-nombre-y-titulo-desktop, .p-dato-contacto-desktop-footer, .copyright-desktop, .a-h2-nombre-desktop-footer, .div-flex-links-footer, .div-flex-links-footer-es, .titulo-desktop-footer, .titulo-desktop-footer-es, #see-certificate-desktop {
     display: none;
 }
 
@@ -469,7 +469,7 @@ main {
 
 
 /* SECTION EDUCATION */
-.section-education {
+.section-education, .section-education-desktop {
     /* border: 1px solid blue;
     border: 1px solid transparent; */
     width: 100%;
@@ -484,6 +484,10 @@ main {
     padding: 10px;
     padding-top: 25px;
     margin-top: -1px;
+}
+
+.section-education-desktop {
+    display: none;
 }
 
 .title-arriba, .title-abajo, .title-arriba-dorado, .title-arriba-dorado-skills {
@@ -1005,7 +1009,7 @@ footer {
 
 
 /* DEGRADES */
-.section-education {
+.section-education, .section-education-desktop {
     background: linear-gradient(#000000 0%, #181818 25%, #272727 45%, rgb(49, 45, 36) 65%, rgb(197, 169, 118) 95%);
 }
 
@@ -1329,10 +1333,14 @@ footer {
 @media (min-width: 1024px) {
 
     /* COSAS Q NO SE VEN */
-    .div-icon, .contenedor-nombre-y-titulo, .section-de-contacto, .div-interno-skills-1rafila, .div-interno-skills-2dafila, .div-interno-skills-3rafila, .div-interno-skills-4tafila, .footer-copyright, .h2-nombre-footer {
+    .div-icon, .contenedor-nombre-y-titulo, .section-de-contacto, .div-interno-skills-1rafila, .div-interno-skills-2dafila, .div-interno-skills-3rafila, .div-interno-skills-4tafila, .footer-copyright, .h2-nombre-footer, #see-certificate-mobile {
         display: none;
     }
     /* ----------------- */
+
+    #see-certificate-desktop {
+        display: block;
+    }
 
     /* COSAS NUEVAS Q SE VEN */
     /* NAVBAR */
@@ -1672,11 +1680,19 @@ footer {
         /* ver mas arriba */
     }
 
-    .section-education, .section-skills, .section-services {
+    .section-education, .section-education-desktop, .section-skills, .section-services {
         /* border: 1px solid blue;
         border: 1px solid transparent; */
         padding: 10px 58px 10px;
         padding-top: 25px;
+    }
+
+    .section-education {
+        display: none;
+    }
+
+    .section-education-desktop {
+        display: flex;
     }
 
     /* TITULOS */
@@ -1868,8 +1884,9 @@ footer {
         background-color: rgba(41, 41, 41, 0.1);
         .img-digital {
             transition: 300ms;
-            background: linear-gradient(140deg, #cd9696 10%, #ffffff 60%, #c36868 95%, #df4040 100%);
-            opacity: 0.95;
+            background: linear-gradient(140deg, #ffffff 0%, #c36868 45%, #d71a1a 70%, #790b0b 100%);
+            background: linear-gradient(140deg, #ffffff 40%, #c36868 90%, #d71a1a 100%);
+            opacity: 0.85;
         }
     }
 
@@ -2003,7 +2020,7 @@ footer {
     }
 
     /* DEGRADES */
-    .section-education {
+    .section-education, .section-education-desktop {
         background: linear-gradient(#000000 0%, #181818 15%, #272727 35%, rgb(72, 66, 54) 60%, rgb(197, 169, 118) 95%);
     }
     
@@ -2069,7 +2086,7 @@ footer {
     }
 
     /* ANCHOS DE SECTIONS */
-    .section-education, .section-skills, .section-services {
+    .section-education, .section-education-desktop, .section-skills, .section-services {
         /* border: 1px solid blue; */
         padding: 10px 58px 30px;
         padding-top: 30px;
