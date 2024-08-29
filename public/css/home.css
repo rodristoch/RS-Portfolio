@@ -1050,8 +1050,8 @@ footer {
     background-color: rgba(0, 0, 0, 0.4);
     .img-digital {
         transition: 300ms;
-        background: linear-gradient(140deg, #cd9696 10%, #ffffff 60%, #c36868 95%, #df4040 100%);
-        opacity: 0.95;
+        background: linear-gradient(140deg, #ffffff 40%, #c36868 90%, #d71a1a 100%);
+        opacity: 0.9;
     }
 }
 
@@ -1060,8 +1060,8 @@ footer {
     background-color: rgba(41, 41, 41, 0.1);
     .img-digital {
         transition: 300ms;
-        background: linear-gradient(140deg, #cd9696 10%, #ffffff 60%, #c36868 95%, #df4040 100%);
-        opacity: 0.95;
+        background: linear-gradient(140deg, #ffffff 40%, #c36868 90%, #d71a1a 100%);
+        opacity: 0.9;
     }
 }
 
@@ -1884,7 +1884,6 @@ footer {
         background-color: rgba(41, 41, 41, 0.1);
         .img-digital {
             transition: 300ms;
-            background: linear-gradient(140deg, #ffffff 0%, #c36868 45%, #d71a1a 70%, #790b0b 100%);
             background: linear-gradient(140deg, #ffffff 40%, #c36868 90%, #d71a1a 100%);
             opacity: 0.85;
         }
