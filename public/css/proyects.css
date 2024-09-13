@@ -633,7 +633,7 @@ main {
     border: 1px solid white;
     border: 1px solid transparent;
     width: 100%;
-    text-align: left;
+    /* text-align: left; */
     /* border-top-right-radius: 5px; */
 }
 
@@ -710,6 +710,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    background-color: rgba(0, 0, 0, .9);
 }
 
 .titulo-proyect, .about-proyect, .about-proyect-description, .about-proyect-skills, .repo-git-button, .latest-proyect {
@@ -734,7 +735,7 @@ main {
     font-size: 13px;
     font-weight: 300;
     letter-spacing: -.5px;
-    width: 100%;
+    /* width: 100%; */
     text-align: left;
     padding: 3px 6px 3px;
     background-color: rgba(0, 0, 0, .9);
@@ -787,6 +788,50 @@ main {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+
+.div-titulo-proyect, .div-about-proyect, .div-about-proyect-description, .repo-git-button-externo, .div-latest-proyect {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.div-about-proyect-description {
+    align-items: flex-end;
+}
+
+.titulo-proyect, .about-proyect, .about-proyect-description, .repo-git-button, .latest-proyect {
+    padding-right: 12px;
+}
+
+/* GUION ANIMATION */
+@keyframes guion {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.guion {
+    font-family: "DM Mono", monospace;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.5px;
+    display: inline;
+    width: fit-content;
+    text-align: center;
+    padding: 2px 6px 2px;
+    padding-left: 0;
+    animation: guion .8s infinite;
+    margin-left: -12px;
 }
 
 
@@ -983,6 +1028,10 @@ footer {
     .div-skill-medio {
         height: 22px;
         width: 6px;
+    }
+
+    .titulo-proyect, .about-proyect, .about-proyect-description, .repo-git-button, .latest-proyect {
+        padding-right: 12px;
     }
 
     /* CONTACTO */
@@ -1252,7 +1301,7 @@ footer {
         border-bottom-right-radius: 8px;
     }
 
-    .titulo-proyect, .repo-git-button, .about-proyect, .about-proyect-description, .about-proyect-skills, .latest-proyect {
+    .titulo-proyect, .repo-git-button, .about-proyect, .about-proyect-description, .about-proyect-skills, .latest-proyect, .guion {
         font-weight: 400;
     }
 
