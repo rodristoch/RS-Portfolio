@@ -800,7 +800,7 @@ main {
     border-top-right-radius: 4px;
 }
 
-.img-skill, .img-skill-mysql, .img-skill-postgre, .img-skill-scum, .img-skill-ejs, .img-skill-sequelize, .img-skill-react, .img-skill-desktop, .img-skill-react-desktop, .img-skill-ejs-desktop, .img-skill-sequelize-desktop, .img-skill-mysql-desktop, .img-skill-postgre-desktop, .img-skill-scum-desktop {
+.img-skill, .img-skill-mysql, .img-skill-postgre, .img-skill-scum, .img-skill-ejs, .img-skill-sequelize, .img-skill-react, .img-skill-java, .img-skill-desktop, .img-skill-react-desktop, .img-skill-ejs-desktop, .img-skill-sequelize-desktop, .img-skill-mysql-desktop, .img-skill-postgre-desktop, .img-skill-scum-desktop, .img-skill-java-desktop {
     width: 100%;
     height: 100%;
     scale: 55%;
@@ -809,11 +809,11 @@ main {
     transition: 300ms;
 }
 
-.img-skill-sequelize, .img-skill-sequelize-desktop {
+.img-skill-sequelize, .img-skill-sequelize-desktop, .img-skill-java-desktop {
     scale: 60%;
 }
 
-.img-skill-mysql, .img-skill-ejs, .img-skill-react, .img-skill-ejs-desktop, .img-skill-mysql-desktop, .img-skill-react-desktop {
+.img-skill-mysql, .img-skill-ejs, .img-skill-react, .img-skill-ejs-desktop, .img-skill-mysql-desktop, .img-skill-react-desktop, .img-skill-java {
     scale: 65%;
 }
 
@@ -1060,7 +1060,11 @@ footer {
     filter: drop-shadow(7px 7px 14px rgb(0, 0, 0, 0.6));
 }
 
-.img-skill-desktop, .img-skill-mysql-desktop, .img-skill-postgre-desktop, .img-skill-scum-desktop, .img-skill-ejs-desktop, .img-skill-sequelize-desktop, .img-skill-react-desktop {
+.img-skill-scum, .img-skill-react, .img-skill-ejs, .img-skill-mysql, .img-skill-java {
+    filter: drop-shadow(10px 7px 14px rgb(0, 0, 0, 0.9));
+}
+
+.img-skill-desktop, .img-skill-mysql-desktop, .img-skill-postgre-desktop, .img-skill-scum-desktop, .img-skill-ejs-desktop, .img-skill-sequelize-desktop, .img-skill-react-desktop, .img-skill-java-desktop {
     filter: drop-shadow(7px 7px 14px rgb(0, 0, 0, 0.6));
 }
 
@@ -1108,7 +1112,7 @@ footer {
     transform: scale(1.06);
     background-color: rgba(0, 0, 0, 0.07);
     cursor: pointer;
-    .img-skill, .img-skill-mysql, .img-skill-postgre, .img-skill-scum, .img-skill-ejs, .img-skill-sequelize, .img-skill-react {
+    .img-skill, .img-skill-mysql, .img-skill-postgre, .img-skill-scum, .img-skill-ejs, .img-skill-sequelize, .img-skill-react, .img-skill-java {
         filter: drop-shadow(8px 8px 14px rgb(0, 0, 0, 1));
     }
 }
@@ -1195,7 +1199,7 @@ footer {
         scale: 57%;
     }
     
-    .img-skill-mysql, .img-skill-ejs, .img-skill-react {
+    .img-skill-mysql, .img-skill-ejs, .img-skill-react, .img-skill-java {
         scale: 62%;
     }
     
@@ -1291,7 +1295,7 @@ footer {
         scale: 55%;
     }
     
-    .img-skill-mysql, .img-skill-ejs, .img-skill-react, .img-skill-ejs-desktop, .img-skill-mysql-desktop, .img-skill-react-desktop {
+    .img-skill-mysql, .img-skill-ejs, .img-skill-react, .img-skill-ejs-desktop, .img-skill-mysql-desktop, .img-skill-react-desktop, .img-skill-java, .img-skill-java-desktop {
         scale: 60%;
     }
     
@@ -1985,7 +1989,7 @@ footer {
         transform: scale(1.05);
         background-color: rgba(0, 0, 0, 0.05);
         cursor: pointer;
-        .img-skill-desktop, .img-skill-mysql-desktop, .img-skill-postgre-desktop, .img-skill-scum-desktop, .img-skill-ejs-desktop, .img-skill-sequelize-desktop, .img-skill-react-desktop {
+        .img-skill-desktop, .img-skill-mysql-desktop, .img-skill-postgre-desktop, .img-skill-scum-desktop, .img-skill-ejs-desktop, .img-skill-sequelize-desktop, .img-skill-react-desktop, .img-skill-java-desktop {
             filter: drop-shadow(8px 8px 14px rgb(0, 0, 0, 1));
         }
     }
@@ -1998,7 +2002,7 @@ footer {
         scale: 55%;
     }
     
-    .img-skill-ejs-desktop, .img-skill-mysql-desktop, .img-skill-react-desktop {
+    .img-skill-ejs-desktop, .img-skill-mysql-desktop, .img-skill-react-desktop, .img-skill-java-desktop {
         scale: 60%;
     }
     
@@ -2051,7 +2055,7 @@ footer {
     }
 
     .titulo-servicio, .titulo-servicio-diseño, .titulo-servicio-diseño-es, .titulo-servicio-user, .titulo-servicio-user-es, .titulo-servicio-code, .titulo-servicio-code-es, .titulo-servicio-front, .titulo-servicio-front-es, .titulo-servicio-back, .titulo-servicio-back-es, .titulo-servicio-db, .titulo-servicio-db-es {
-        font-size: 15px;
+        font-size: 14.5px;
         font-weight: 400;
     }
     
@@ -2209,7 +2213,7 @@ footer {
         scale: 52%;
     }
     
-    .img-skill-ejs-desktop, .img-skill-mysql-desktop, .img-skill-react-desktop {
+    .img-skill-ejs-desktop, .img-skill-mysql-desktop, .img-skill-react-desktop, .img-skill-java-desktop {
         scale: 57%;
     }
     
